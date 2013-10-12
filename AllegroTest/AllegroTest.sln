@@ -29,6 +29,28 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroBitmap", "AllegroCon
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroLoadBitmap", "AllegroLoadBitmap\AllegroLoadBitmap.vcxproj", "{20DA1AF6-F517-4373-82B8-C2B185D24A00}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroBitmapRotate", "AllegroBitmapRotate\AllegroBitmapRotate.vcxproj", "{2EFCD31E-37F2-4B86-B32F-A3AAA416E72E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllgeroBasicSprite", "AllgeroGraphPrimitive\AllgeroGraphPrimitive.vcxproj", "{3CE4101A-87ED-462F-89C9-10BF78FBCF2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroBasicAnimation", "AllegroBasicAnimation\AllegroBasicAnimation.vcxproj", "{3DD012F8-8F38-4077-A47D-4B1264BA1E9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroSpriteSheet", "AllegroSpriteSheet\AllegroSpriteSheet.vcxproj", "{9D0FD4BE-EA57-4170-8185-D99CDF8F5F27}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroSpriteSheetAnim", "AllegroSpriteSheetAnim\AllegroSpriteSheetAnim.vcxproj", "{38217DAD-A79C-4F2A-9A63-87E555F2F747}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroSpriteStruct", "AllegroSpriteStruct\AllegroSpriteStruct.vcxproj", "{11E2E218-E6A7-41ED-8F07-23B39F0EF557}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroSpriteStructDemo", "AllegroSpriteStructDemo\AllegroSpriteStructDemo.vcxproj", "{2D755F41-10BF-4FF6-8475-27FD80F466FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroStructGravityDemo", "AllegroStructGravityDemo\AllegroStructGravityDemo.vcxproj", "{5D1B133A-14F6-4B3C-B0D1-BEC1C224B2B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroPlayerSprite", "AllegroPlayerSprite\AllegroPlayerSprite.vcxproj", "{E64A5708-9FFF-472D-B94C-2C60712087F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroCometSprite", "AllegroCometSprite\AllegroCometSprite.vcxproj", "{014787FD-2626-4A2B-9301-CB809D6DEFA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AllegroSpriteExplosion", "AllegroSpriteExplosion\AllegroSpriteExplosion.vcxproj", "{CDAF4C7A-A634-46FA-975C-DD89A7F61601}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -91,6 +113,50 @@ Global
 		{20DA1AF6-F517-4373-82B8-C2B185D24A00}.Debug|Win32.Build.0 = Debug|Win32
 		{20DA1AF6-F517-4373-82B8-C2B185D24A00}.Release|Win32.ActiveCfg = Release|Win32
 		{20DA1AF6-F517-4373-82B8-C2B185D24A00}.Release|Win32.Build.0 = Release|Win32
+		{2EFCD31E-37F2-4B86-B32F-A3AAA416E72E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2EFCD31E-37F2-4B86-B32F-A3AAA416E72E}.Debug|Win32.Build.0 = Debug|Win32
+		{2EFCD31E-37F2-4B86-B32F-A3AAA416E72E}.Release|Win32.ActiveCfg = Release|Win32
+		{2EFCD31E-37F2-4B86-B32F-A3AAA416E72E}.Release|Win32.Build.0 = Release|Win32
+		{3CE4101A-87ED-462F-89C9-10BF78FBCF2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CE4101A-87ED-462F-89C9-10BF78FBCF2A}.Debug|Win32.Build.0 = Debug|Win32
+		{3CE4101A-87ED-462F-89C9-10BF78FBCF2A}.Release|Win32.ActiveCfg = Release|Win32
+		{3CE4101A-87ED-462F-89C9-10BF78FBCF2A}.Release|Win32.Build.0 = Release|Win32
+		{3DD012F8-8F38-4077-A47D-4B1264BA1E9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DD012F8-8F38-4077-A47D-4B1264BA1E9A}.Debug|Win32.Build.0 = Debug|Win32
+		{3DD012F8-8F38-4077-A47D-4B1264BA1E9A}.Release|Win32.ActiveCfg = Release|Win32
+		{3DD012F8-8F38-4077-A47D-4B1264BA1E9A}.Release|Win32.Build.0 = Release|Win32
+		{9D0FD4BE-EA57-4170-8185-D99CDF8F5F27}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D0FD4BE-EA57-4170-8185-D99CDF8F5F27}.Debug|Win32.Build.0 = Debug|Win32
+		{9D0FD4BE-EA57-4170-8185-D99CDF8F5F27}.Release|Win32.ActiveCfg = Release|Win32
+		{9D0FD4BE-EA57-4170-8185-D99CDF8F5F27}.Release|Win32.Build.0 = Release|Win32
+		{38217DAD-A79C-4F2A-9A63-87E555F2F747}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38217DAD-A79C-4F2A-9A63-87E555F2F747}.Debug|Win32.Build.0 = Debug|Win32
+		{38217DAD-A79C-4F2A-9A63-87E555F2F747}.Release|Win32.ActiveCfg = Release|Win32
+		{38217DAD-A79C-4F2A-9A63-87E555F2F747}.Release|Win32.Build.0 = Release|Win32
+		{11E2E218-E6A7-41ED-8F07-23B39F0EF557}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11E2E218-E6A7-41ED-8F07-23B39F0EF557}.Debug|Win32.Build.0 = Debug|Win32
+		{11E2E218-E6A7-41ED-8F07-23B39F0EF557}.Release|Win32.ActiveCfg = Release|Win32
+		{11E2E218-E6A7-41ED-8F07-23B39F0EF557}.Release|Win32.Build.0 = Release|Win32
+		{2D755F41-10BF-4FF6-8475-27FD80F466FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2D755F41-10BF-4FF6-8475-27FD80F466FF}.Debug|Win32.Build.0 = Debug|Win32
+		{2D755F41-10BF-4FF6-8475-27FD80F466FF}.Release|Win32.ActiveCfg = Release|Win32
+		{2D755F41-10BF-4FF6-8475-27FD80F466FF}.Release|Win32.Build.0 = Release|Win32
+		{5D1B133A-14F6-4B3C-B0D1-BEC1C224B2B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D1B133A-14F6-4B3C-B0D1-BEC1C224B2B6}.Debug|Win32.Build.0 = Debug|Win32
+		{5D1B133A-14F6-4B3C-B0D1-BEC1C224B2B6}.Release|Win32.ActiveCfg = Release|Win32
+		{5D1B133A-14F6-4B3C-B0D1-BEC1C224B2B6}.Release|Win32.Build.0 = Release|Win32
+		{E64A5708-9FFF-472D-B94C-2C60712087F8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E64A5708-9FFF-472D-B94C-2C60712087F8}.Debug|Win32.Build.0 = Debug|Win32
+		{E64A5708-9FFF-472D-B94C-2C60712087F8}.Release|Win32.ActiveCfg = Release|Win32
+		{E64A5708-9FFF-472D-B94C-2C60712087F8}.Release|Win32.Build.0 = Release|Win32
+		{014787FD-2626-4A2B-9301-CB809D6DEFA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{014787FD-2626-4A2B-9301-CB809D6DEFA6}.Debug|Win32.Build.0 = Debug|Win32
+		{014787FD-2626-4A2B-9301-CB809D6DEFA6}.Release|Win32.ActiveCfg = Release|Win32
+		{014787FD-2626-4A2B-9301-CB809D6DEFA6}.Release|Win32.Build.0 = Release|Win32
+		{CDAF4C7A-A634-46FA-975C-DD89A7F61601}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDAF4C7A-A634-46FA-975C-DD89A7F61601}.Debug|Win32.Build.0 = Debug|Win32
+		{CDAF4C7A-A634-46FA-975C-DD89A7F61601}.Release|Win32.ActiveCfg = Release|Win32
+		{CDAF4C7A-A634-46FA-975C-DD89A7F61601}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
