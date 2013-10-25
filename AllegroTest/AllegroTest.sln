@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Allegro14.2", "Allegro14.2\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Allegro14.3", "Allegro14.3\Allegro14.3.vcxproj", "{816774EF-7594-407B-BA88-F91D308A9C51}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Allegro14.4", "Allegro14.4\Allegro14.4.vcxproj", "{0256E754-AC1D-4796-A55C-71B34280D403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -241,6 +243,10 @@ Global
 		{816774EF-7594-407B-BA88-F91D308A9C51}.Debug|Win32.Build.0 = Debug|Win32
 		{816774EF-7594-407B-BA88-F91D308A9C51}.Release|Win32.ActiveCfg = Release|Win32
 		{816774EF-7594-407B-BA88-F91D308A9C51}.Release|Win32.Build.0 = Release|Win32
+		{0256E754-AC1D-4796-A55C-71B34280D403}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0256E754-AC1D-4796-A55C-71B34280D403}.Debug|Win32.Build.0 = Debug|Win32
+		{0256E754-AC1D-4796-A55C-71B34280D403}.Release|Win32.ActiveCfg = Release|Win32
+		{0256E754-AC1D-4796-A55C-71B34280D403}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
