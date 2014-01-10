@@ -4,6 +4,8 @@ Background::Background(ALLEGRO_BITMAP *image, float velX)
 {
 	GameObject::Init(0, 0, velX, 0, -1, 0, 0, 0);
 
+	frameWidth = 256;
+
 	SetID(MISC);
 	SetCollidable(false);
 
@@ -18,6 +20,8 @@ void Background::Destroy()
 
 void Background::Update()
 {
+	std::cout<<"background x is "<<x<<std::endl;
+	std::cout<<"background frameWidth is "<<frameWidth<<std::endl;
 	GameObject::Update();
 	if(x + frameWidth <= 0)
 		x = 0;
