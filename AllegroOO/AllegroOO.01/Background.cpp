@@ -33,6 +33,7 @@ void Background::Render()
 
 	al_draw_bitmap(image, x, y, 0);
 
+	// to prevent gaps between screens
 	if(x + frameWidth < WIDTH)
 		al_draw_bitmap(image, x + frameWidth, y, 0);
 }
